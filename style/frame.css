@@ -1,0 +1,176 @@
+/*CSS DO HEADER E FOOTER ALÉM DE CONFIG GERAIS DE ESTILO*/
+
+body{
+  margin: 0;
+  overflow-y: scroll;
+  background: linear-gradient(180deg, #F8F5F5 25.08%, #CFD3EC 58%, #94A0DE 100%);
+}
+
+.header-container{
+  background-color: rgba(148, 160, 222, 1);
+  height:231.78px;
+  position: relative;
+  margin: 0 10px 0 10px;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  align-items: center;
+  padding-inline-start: 60px;
+}
+
+#logo{
+  padding: 12px 5px 5px 35px;
+}
+
+.menu-itens {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.menu-itens a{
+  font-weight: 900;
+  font-size: 25px;
+  text-transform: uppercase;
+  color:  rgba(245, 229, 93, 1);
+  display: flex;
+  white-space: nowrap;
+}
+
+.menu-itens a:hover{
+  color: rgb(33, 48, 129);
+}
+
+#pgMenu {
+   text-decoration: none;
+   list-style: none;
+   margin: 0 30px 0 30px;
+}
+
+.after a{
+  text-decoration: none;
+  list-style: none;
+  margin: 0 30px 0 30px;
+}
+
+.after .dropdown-menu{
+  text-decoration: none;
+  list-style: none;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.dropdown-itens a{
+  font-size: 17px;
+  color:rgba(245, 229, 93, 1);
+}
+
+.dropdown-itens a:hover {
+  color: rgb(33, 48, 129);
+}
+
+
+.footer-container {
+  background-color: rgba(245, 229, 93, 1);
+  text-align: start;
+  height:280px;
+  margin: 0 10px 0 10px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.aside-footer{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-contato li {
+  text-decoration: none;
+  list-style: none;
+  line-height: 35px;
+}
+
+.footer-contato h2{
+  font-weight: 900;
+  font-size: 25px;
+  text-transform: capitalize;
+  color:  rgb(33, 48, 129);
+  padding-left: 35px;
+}
+
+.footer-contato a{
+  text-decoration: none;
+  list-style: none;
+  color: rgb(0, 0, 0);
+}
+
+.footer-navegacao li {
+  text-decoration: none;
+  list-style: none;
+  line-height: 35px;
+}
+
+.footer-navegacao h2{
+  font-weight: 900;
+  font-size: 25px;
+  text-transform: capitalize;
+  color: rgb(33, 48, 129);
+  padding-left: 35px;
+}
+
+.footer-navegacao a{
+  text-decoration: none;
+  list-style: none;
+  color: rgb(0, 0, 0);
+}
+
+.footer-navegacao a:hover {
+  color: rgb(33, 48, 129);
+}
+
+#p__copyright{
+  text-align: center;
+}
+
+/*JAVASCRIPT DO MENU*/
+.dropdown-menu{
+  display: none;
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1024px){
+.header-container{
+  height:231.78px;
+  position: relative;
+  margin: 0 10px 0 10px;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  align-items: center;
+  padding-inline-start: 60px;
+}
+
+#logo{
+  padding: 12px 5px 5px 35px;
+}
+
+.menu-itens {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.menu-itens a{
+  font-weight: 900;
+  font-size: 25px;
+  text-transform: uppercase;
+  color:  rgba(245, 229, 93, 1);
+  display: flex;
+  white-space: nowrap;
+}
+}
